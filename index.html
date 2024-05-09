@@ -4,39 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raksti</title>
-    <style>
-        article {
-            width: 33.3%; 
-            display: inline-block; 
-            vertical-align: top;
-            box-sizing:border-box;
-            padding: 10px;
-        }
-        h2 {
-            font-family: 'Lucida Sans';
-            text-align: center;
-            color:rgb(24, 24, 23);
-            font-size: 30px;
-        }
-        .text {
-            font-family: 'Lucida Sans';
-            text-align: justify;
-            color:rgb(24, 24, 23);
-            font-size: 15px;
-        }
-        img {
-            width: 400px;
-            height: 250px;
-            border: rgb(149, 196, 172) solid 5px;
-            border-radius: 10px;
-        }
-        span {
-            background-color: rgb(203, 164, 112);
-            font-size: 20px;
-            border: rgb(119, 139, 163) solid 2px;
-            border-radius: 4px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -49,12 +17,12 @@
              </nav> 
          </div>
     </header>
-    <section>
-        <h1 style="font-size: 30px;">Raksti</h1>
-        <p style="font-family: 'Trebuchet MS'">Kas zemāk esošajiem rakstiem ir kopīgs?</p>
+    <section class="section">
+        <h1>Raksti</h1>
+        <p>Kas zemāk esošajiem rakstiem ir kopīgs?</p>
         <div>
-            <h6 style="font-size: 20px; color:rgb(98, 171, 193); font-style: italic;">Kategorijas</h6>
-            <div>
+            <h6 class="heading6">Kategorijas</h6>
+            <div class="categories">
                 <span>Kategorija 1</span>
                 <span>Kategorija 2</span>
                 <span>Kategorija 3</span>
@@ -63,61 +31,61 @@
     </section>
     <section>
         <!-- Pavairo un aizpildi <article>, lai būtu vismaz seši -->
-        <article>
-            <div style="height: 100px;">
-                <h2>Heineken to reopen more than 60 closed pubs</h2>
+        <article class="article">
+            <div>
+                <h2 class="heading2">Heineken to reopen more than 60 closed pubs</h2>
             </div>
-            <img src="./images/heineken.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/heineken.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Brewing giant Heineken will reopen 62 pubs that were closed in recent years and invest £39m in refurbishing hundreds of sites across the UK.
             </p>
             <a href="https://www.bbc.com/news/articles/cj5lvgyy5y1o" target="_blank">Viss raksts šeit</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
-        </article><article>
-            <div style="height: 100px;">
-                <h2 >The rise of Sweden's super rich</h2>
+        </article><article class="article">
+            <div>
+                <h2 class="heading2">The rise of Sweden's super rich</h2>
             </div>
-            <img src="./images/sweden.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/sweden.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Sweden has a global reputation for championing high taxes and social equality, but it has become a European hotspot for the super rich.
             </p>
             <a href="https://www.bbc.com/news/business-68927238" target="_blank">Viss raksts šeit</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
-        </article><article>
-            <div style="height: 100px;">
-                <h2 >Qantas agrees payouts over 'ghost flights'</h2>
+        </article><article class="article">
+            <div>
+                <h2 class="heading2">Qantas agrees payouts over 'ghost flights'</h2>
             </div>
-            <img src="./images/qantas.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/qantas.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Australia's biggest airline Qantas has agreed to pay a A$100m ($66.1m, £52.7m) penalty to settle a legal case accusing it of selling thousands of tickets for flights it had already cancelled.
             </p>
             <a href="https://www.bbc.com/news/articles/cd1qjp0py0lo">Viss raksts šeit</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
-        </article><article>
-            <div style="height: 100px;">
-                <h2 style="text-align: center;">Heineken to reopen more than 60 closed pubs</h2>
+        </article><article class="article">
+            <div>
+                <h2 class="heading2">Heineken to reopen more than 60 closed pubs</h2>
             </div>    
-            <img src="./images/heineken.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/heineken.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Brewing giant Heineken will reopen 62 pubs that were closed in recent years and invest £39m in refurbishing hundreds of sites across the UK.
             </p>
             <a href="https://www.bbc.com/news/articles/cj5lvgyy5y1o" target="_blank">Viss raksts šeit</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
-        </article><article>
-            <div style="height: 100px;">
-                <h2 >The rise of Sweden's super rich</h2>
+        </article><article class="article">
+            <div>
+                <h2 class="heading2">The rise of Sweden's super rich</h2>
             </div>
-            <img src="./images/sweden.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/sweden.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Sweden has a global reputation for championing high taxes and social equality, but it has become a European hotspot for the super rich.
             </p>
             <a href="https://www.bbc.com/news/business-68927238" target="_blank">Viss raksts šeit</a><!-- Ievieto saiti uz pilnu rakstu tā, lai tā atveras jaunā cilnē -->
-        </article><article>
-            <div style="height: 100px;">
-                <h2 >Qantas agrees payouts over 'ghost flights'</h2>
+        </article><article class="article">
+            <div>
+                <h2 class="heading2">Qantas agrees payouts over 'ghost flights'</h2>
             </div>
-            <img src="./images/qantas.webp" alt=""><!-- Ievieto attēlu -->
+            <img class="image" src="./images/qantas.webp" alt=""><!-- Ievieto attēlu -->
             <p class="text">
                 <!-- Raksta pirmais teikums -->
                 Australia's biggest airline Qantas has agreed to pay a A$100m ($66.1m, £52.7m) penalty to settle a legal case accusing it of selling thousands of tickets for flights it had already cancelled.

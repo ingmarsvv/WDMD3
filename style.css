@@ -1,0 +1,42 @@
+.article {
+    width: 33.3%; 
+    display: inline-block; 
+    vertical-align: top;
+    box-sizing:border-box;
+    padding: 10px;
+}
+.heading2 {
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color:rgb(24, 24, 23);
+    font-size: 30px;
+}
+.text {
+    font-family: 'Lucida Sans';
+    text-align: justify;
+    color:rgb(24, 24, 23);
+    font-size: 15px;
+}
+.image {
+    width: 400px;
+    height: 250px;
+    border: rgb(149, 196, 172) solid 5px;
+    border-radius: 10px;
+}
+.heading6 {
+    font-size: 20px;
+    color:rgb(98, 171, 193);
+    font-style: italic;
+}
+.section{
+    font-family: 'Trebuchet MS';
+}
+.section > h1{
+    font-size: 30px;
+}
+.categories > span {
+    background-color: rgb(203, 164, 112);
+    font-size: 20px;
+    border: rgb(119, 139, 163) solid 2px;
+    border-radius: 4px;
+}
